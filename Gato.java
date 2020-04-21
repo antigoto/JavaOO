@@ -1,7 +1,7 @@
 package com.antigoto;
 
 
-public class Gato extends Animal {
+public class Gato extends AnimalAbstracto {
 
     String raza;
 
