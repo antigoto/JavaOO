@@ -1,7 +1,7 @@
 package com.antigoto;
 
 
-public class Perro extends Animal {
+public class Perro extends Animal implements Domestico {
 
     private String raza;
 
@@ -21,4 +21,8 @@ public class Perro extends Animal {
     public void mostrar(){
         System.out.println(getNombre() + "-"+getTipo_alimentacion()+"-"+getEdad()+"-"+getRaza());
     }
+
+    public void vacunar() {
+        System.out.println("Debe ser vacunado");
+    } 
 }
