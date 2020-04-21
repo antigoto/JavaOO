@@ -1,4 +1,4 @@
-package com.gamis214;
+package com.antigoto;
 
 public interface Domestico
 {
